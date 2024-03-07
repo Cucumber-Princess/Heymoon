@@ -39,7 +39,7 @@ header .wrap h1 img{width: 160px;}
 header .wrap .menu{
     display: flex;
     color: #535353;
-    font-size: 18px;
+    font-size: 15px;
     gap: 25px;
     font-family: "times";
     margin: 30px 0 0 40px;
@@ -49,7 +49,7 @@ header .wrap .gnb{display: flex; gap: 20px; margin-left: auto; margin-top: 25px;
 header .wrap .gnb .con{}
 header .wrap .gnb .con img{width: 30px;}
 
-.banner{margin-top: 93px;}
+.banner{margin-top: 90px;}
 .banner .wrap{
     width: 100%;
     height: 500px;
@@ -81,9 +81,9 @@ header .wrap .gnb .con img{width: 30px;}
     }
 }
 .banner .wrap .phone1{position: absolute; top: -8%; right: 1%; z-index: 1; animation: fadeInRight 1s;}
-.banner .wrap .phone1 img{width: 200px;}
+.banner .wrap .phone1 img{width: 150px;}
 .banner .wrap .phone2{position: absolute; bottom: -8%; left: 2%; z-index: 1; animation: fadeInLeft 1s;}
-.banner .wrap .phone2 img{width: 200px;}
+.banner .wrap .phone2 img{width: 150px;}
 .banner .wrap .container{z-index: 5; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .banner .wrap .text{text-align: center; margin-bottom: 20px; white-space: nowrap; }
 .banner .wrap .text h2{font-size: 45px; font-family: "times"; font-weight: 100;}
@@ -103,15 +103,19 @@ header .wrap .gnb .con img{width: 30px;}
 .banner .wrap .guide{text-align: center; font-family: "apple"; font-weight: 100%; opacity: 50%; font-size: 14px;}
 
 
-.funtion{}
+.funtion{
+    width: 100%;
+    background-image: url(../images/Function_bg_m.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 .funtion .wrap{
+    width: 90%;
+    margin: 0 auto;
     padding: 75px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/Function_bg_m.jpg);
-    background-size: cover;
-    background-position: center center;
 }
 .funtion .wrap .title{color: #282423; text-align: center; margin-bottom: 40px;}
 .funtion .wrap .title h3{font-size: 40px; font-family: "times"; font-weight: 100;}
@@ -119,29 +123,33 @@ header .wrap .gnb .con img{width: 30px;}
 .funtion .wrap .con{}
 .funtion .wrap .con .box{display: flex; gap: 20px; margin-bottom: 20px;}
 .funtion .wrap .con .box:last-child{margin-bottom: 0;}
-.funtion .wrap .con .box .img{}
+.funtion .wrap .con .box .img{width: 40px;}
+.funtion .wrap .con .box .img img{width: 40px;}
 .funtion .wrap .con .box .text{font-family: "apple";}
 .funtion .wrap .con .box .tit{font-size: 20px; margin-bottom: 5px;}
-.funtion .wrap .con .box .txt{font-size: 17px; color: #666;}
+.funtion .wrap .con .box .txt{font-size: 15px; color: #666;}
 
 .infor{}
 .infor .wrap{width: 100%;}
 .infor .wrap .box{width: 100%; background-color: #fbf9f7;}
 .infor .wrap .box:nth-child(even){background-color: #f4f1ed;}
-.infor .wrap .box .img{width: 500px; margin: 0 auto;}
+.infor .wrap .box .img{width: 100%; margin: 0 auto;}
+.infor .wrap .box .img img{width: 500px;}
 .infor .wrap .box:nth-child(3) .img{width: 400px; margin: 0 auto; padding-top: 50px;}
-.infor .wrap .box:nth-child(4) .img{width: 500px; margin: 0 auto; padding-top: 50px;}
-.infor .wrap .box .text{text-align: center; font-family: "apple"; padding: 50px 0;}
+.infor .wrap .box:nth-child(4) .img{width: 100%; margin: 0 auto; padding-top: 50px;}
+.infor .wrap .box:nth-child(4) .img img{width: 500px}
+.infor .wrap .box .text{text-align: center; font-family: "apple"; padding: 50px 0; width: 90%; margin: 0 auto;}
 .infor .wrap .box .text .tit{margin-bottom: 20px;}
 .infor .wrap .box .text .tit p{font-size: 20px; font-weight: 100; margin-bottom: 1;}
 .infor .wrap .box .text .tit h4{font-size: 25px;}
 .infor .wrap .box .keyword{display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; font-size: 15px;}
 .infor .wrap .box .keyword .con{background-color: #666; font-weight: 100; padding: 7px 13px; color: white; border-radius: 99px;} 
-.infor .wrap .box .txt{font-size: 17px; line-height: 31px;}
+.infor .wrap .box .txt{font-size: 16px; line-height: 31px;}
 
 .brand{}
 .brand .wrap{width: 100%; background-color: #cba58d;}
-.brand .wrap .img{width: 562px; margin: 0 auto;}
+.brand .wrap .img{width: 100%; margin: 0 auto;}
+.brand .wrap .img img{width: 562px;}
 
 .review{width: 100%; background-color: #decdb5;}
 .review .wrap{padding: 75px 0;}

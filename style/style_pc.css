@@ -29,6 +29,8 @@
     .banner .wrap .qr .con a .code_logo{width: 200px;}
     .banner .wrap .qr .con a .code{display: flex; width: 100px; height: 100px;}
 
+    .funtion .wrap{width: 80%;}
+
     .review .wrap .container{
         width: 80%;
     }
