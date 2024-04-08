@@ -1,3 +1,25 @@
+@media (min-width: 1190px)  {
+    .infor .wrap .box{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+    }
+    .infor .wrap .box .img{width: 120%; display: flex; align-items: center;}
+    .infor .wrap .box .img img{width: 100%;}
+    .infor .wrap .box:nth-child(even){flex-direction: row-reverse; width: 100%; padding: 10px 20%;}
+    .infor .wrap .box:first-child .img{width: 70%; margin: unset;}
+    .infor .wrap .box:nth-child(3) .img{width: 100%; margin: unset;  padding-top: unset;}
+    .infor .wrap .box:nth-child(3) .img img{width: 70%; height: unset;}
+    .infor .wrap .box:nth-child(4) .img{padding-top: unset; margin: unset;}
+    .infor .wrap .box .text{text-align: left; font-family: "apple"; padding: 50px 0; display: flex; flex-direction: column; justify-content: center;}
+    .infor .wrap .box .text .tit{margin-bottom: 20px;}
+    .infor .wrap .box .text .tit p{font-size: 20px; font-weight: 100; margin-bottom: 1;}
+    .infor .wrap .box .text .tit h4{font-size: 25px;}
+    .infor .wrap .box .keyword{white-space: nowrap; justify-content: left;}
+    .infor .wrap .box .keyword .con{background-color: #666; font-weight: 100; padding: 7px 13px; color: white; border-radius: 99px;} 
+    .infor .wrap .box .txt{font-size: 15px; line-height: 28px;}
+}
 @media (min-width: 770px)  {
     .m{display: none;}
     .pc{display: none;}
@@ -65,22 +87,7 @@
     .funtion .wrap .con .box .img{width: 80px;}
     .funtion .wrap .con .box .img img{width: 100%;}
 
-    
-    .infor{}
     .infor .wrap{width: 100%; background-color: #fbf9f7;}
-    .infor .wrap .box{width: 80%; margin: 0 auto; display: flex; justify-content: center; gap: 20px;}
-    .infor .wrap .box .img{margin: unset;}
-    .infor .wrap .box:nth-child(even){flex-direction: row-reverse; width: 100%; padding: 0 20%;}
-    .infor .wrap .box:nth-child(3) .img{width: 100%; margin: unset; padding-top: 50px;}
-    .infor .wrap .box:nth-child(3) .img img{width: unset; height: 500px;}
-    .infor .wrap .box:nth-child(4) .img{padding-top: 50px; padding-bottom: 50px; margin: unset;}
-    .infor .wrap .box .text{text-align: left; font-family: "apple"; padding: 50px 0; display: flex; flex-direction: column; justify-content: center;}
-    .infor .wrap .box .text .tit{margin-bottom: 20px;}
-    .infor .wrap .box .text .tit p{font-size: 20px; font-weight: 100; margin-bottom: 1;}
-    .infor .wrap .box .text .tit h4{font-size: 25px;}
-    .infor .wrap .box .keyword{white-space: nowrap; justify-content: left;}
-    .infor .wrap .box .keyword .con{background-color: #666; font-weight: 100; padding: 7px 13px; color: white; border-radius: 99px;} 
-    .infor .wrap .box .txt{font-size: 15px; line-height: 28px;}
 
     .review .wrap .container{
         display: flex;
@@ -107,7 +114,6 @@
     footer .wrap .first{flex-direction: unset; gap: 20px;}
     footer .wrap .first .customer{padding-bottom: 40px; order: unset;}
     footer .wrap .first .customer .tit{font-weight: bold; margin-bottom: 10px;}
-    footer .wrap .first .customer .btn{}
     footer .wrap .first .customer .btn .box{color: #c5875d;}
     footer .wrap .first .customer .btn .box a{
         display: inline-block;
